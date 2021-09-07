@@ -12,7 +12,7 @@ import {
   HStack
 } from '@chakra-ui/react'
 import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
-import CarolProcaciPic from '../public/carol.jpg'
+import Logo from '../public/logo.jpg'
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -40,7 +40,7 @@ const Index = () => (
             align={["center"]}
       >
       <Box w="6rem" h="5rem">
-      <Image  w="5rem" borderRadius="full" src='/carol.jpg'></Image>
+      <Image  w="5rem" borderRadius="full" src='/logo.jpg'></Image>
       </Box>
 
         <Flex width="100%" justifyContent="space-evenly">
@@ -54,7 +54,9 @@ const Index = () => (
     </Main>
 
     <Footer>
-      <Text>@carolina.procaci</Text>
+      <ChakraLink href="https://www.instagram.com/thiagopegueh/">
+        <Text>@thiagopegueh</Text>
+        </ChakraLink>
     </Footer>
   </Container>
 )
